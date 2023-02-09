@@ -1,0 +1,74 @@
+<?php include 'sentMail.php';?>
+ 
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+body {
+  background-image: url('./img/bg.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+    <meta charset="utf-8">
+    <meta name="description" content="MEMBERSHIP">
+  	<meta name="author" content="IFTEKHAR RIFAT">
+    <title>SINISTER SIX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png">
+  </head>
+  
+  <body>
+    <header>
+      <div class="container">
+      <div id="branding">
+          
+          <h1><span class="highlight">Chasmish.com</span>
+        </div>  
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="gallery.html">Log In</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+<marquee behavior="scroll" direction="left">
+username:admin ____ password: Your name 
+</marquee>
+ 
+ 
+     <form class="login" action="login.html" method="post">
+         
+           
+      <fieldset>
+          
+          <label>User Name</label><br>
+        <input placeholder="Username" name="username" type="username" id="username">
+      </fieldset>
+      
+          
+      <fieldset>
+          <label>Password</label><br>
+        <input placeholder="Type Your Password" type="password" name="Password" id="password">
+      </fieldset>
+      
+      <fieldset>
+        <button type="button" name="submit"
+       onclick="login()" >Submit Now</button></a>
+        
+        
+      </fieldset>
+    </form>
+    </div>
+     </aside>
+</header>
+<footer>
+      <p>Chasmish Copyright &copy; 2023</p>
+    </footer>
+    <script src="main.js"></script>
+</html>
